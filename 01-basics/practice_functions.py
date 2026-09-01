@@ -5,6 +5,7 @@ greet_user("Afaq")         #we can reuse that functions with writng it over and 
 greet_user("Abbas")    
 
 
+#return
 def cube(number):
     return number**3
 result = cube(2)
