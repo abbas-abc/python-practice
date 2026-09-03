@@ -3,7 +3,7 @@
 Total_bill = float(input("Enter total bill amount = " ))     #used float becuase it can contain decimal
 peoples = int(input("Enter total number of peoples = "))     #int is used becuase the number of people cannot be in decimal
 tip_percentage = int(input("enter tip percentage = "))
-tip_amount= Total_bill*tip_percentage/100           #covert percentage into amount
+tip_amount= Total_bill*tip_percentage/100           
 
 print("Each person owns = ", Total_bill/peoples)
 
