@@ -1,16 +1,16 @@
 grades = input("Enter your grade: ")
-
+#i use here the matching case to evaluate the grades of the students
 match grades:
-    case "A":
+    case"A":
         print("Excellent")
 
-    case "B":
+    case"B":
         print("Good job")
 
-    case "C":
+    case"C":
         print("Good")
 
-    case "D":
+    case"D":
         print("Fail")
 
     case _:
