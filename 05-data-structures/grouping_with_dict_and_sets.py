@@ -22,11 +22,11 @@ for names, courses in info:
 
 
 # Q3: Group each person with the set of all courses they're taking
-student_courses = {}
+dict = {}
 for names, courses in info:
-    if student_courses.get(names) == None:
-        student_courses.update({names: set()})
-        student_courses[names].add(courses)
+    if dict.get(names) == None:
+        dict.update({names: set()})
+        dict[names].add(courses)
     else:
-        student_courses[names].add(courses)
-print(student_courses)
+        dict[names].add(courses)
+print(dict)
